@@ -40,7 +40,7 @@ const (
 	SRP_KEY_SIZE      = 128
 	SRP_SALT_SIZE     = 32
 	DEBUG_PRIVATE_KEY = "60975527035CF2AD1989806F0407210BC81EDC04E2762A56AFD529DDDA2D4393"
-	DEBUG_SRP         = false
+	DEBUG_SRP         = true
 )
 
 func pad(v *big.Int) []byte {
